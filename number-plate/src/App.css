@@ -1,0 +1,86 @@
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.auto_sign {
+  min-height: 20vh;
+  min-width: 40vw;
+  background-color: #fefff0;
+  border-radius: 16px;
+  border: 5px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prapor {
+  min-width: 5vw;
+  min-height: 100%;
+}
+
+.blue {
+  width: 100%;
+  min-height: 10vh;
+  background-color: blue;
+  border-top-left-radius: 11px;
+}
+
+.yellow {
+  width: 100%;
+  min-height: 10vh;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 11px;
+}
+
+.numbers {
+  font-size: 20vh;
+  line-height: 20vh;
+  /* width: 100%; */
+  margin: 0 5vw;
+}
+
+.ua_sign {
+  font-size: 5vh;
+  font-weight: bold;
+  margin: 0 2vh;
+}
+
+.description {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 2vh;
+}
+
+.btn {
+  background-color: lightgrey;
+  color: black;
+  width: 20vw;
+  height: 50px;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  padding: 0;
+  border: none;
+  padding: 2px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #c7c7c7;
+}
+
+.btn:active {
+  background-color: grey;
+}
